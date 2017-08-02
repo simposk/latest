@@ -2928,11 +2928,11 @@ html.w-mod-js *[data-ix="showslide-18"] {
 
 
 .scroll-gif {
-    position: fixed;
+    position: absolute;
+    z-index: 100;
     padding-top: 360px;
-    /*background: red;*/
-    /*width: 250px;*/
-    /*height: 250px;*/
+    right: 50%;
+    bottom: 25%;
 }
 
 [data-ca3_icon]::before {
