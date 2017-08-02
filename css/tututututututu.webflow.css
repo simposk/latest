@@ -2929,7 +2929,7 @@ html.w-mod-js *[data-ix="showslide-18"] {
 
 .scroll-gif {
     position: absolute;
-    z-index: 100;
+    z-index: 1;
     padding-top: 360px;
     right: 50%;
     bottom: 25%;
@@ -2947,12 +2947,11 @@ html.w-mod-js *[data-ix="showslide-18"] {
 }
 
 .ca3-scroll-down-link {
-    height: 35px;
+    height: 45px;
     margin-left: -5px;
-    width: 20px;
+    width: 15px;
     position: absolute;
     bottom: 0px;
-    z-index: 100;
 
     -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
     -moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
