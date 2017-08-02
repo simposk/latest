@@ -2913,10 +2913,57 @@ html.w-mod-js *[data-ix="showslide-18"] {
     padding-bottom: 20px;
 }
 
+
+
+/*.scroll-gif img {
+    padding-top: 360px;
+}*/
+
+/* SCROLL GIF*/
+
 .scroll-gif {
     position: fixed;
+    padding-top: 360px;
 }
 
-.scroll-gif img {
-    padding-top: 360px;
+[data-ca3_icon]::before {
+    font-weight: normal;
+    content: attr(data-ca3_icon);
+}
+
+.ca3-scroll-down-arrow {
+    background-image: url("../images/scroll-arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ca3-scroll-down-link {
+    height: 35px;
+    margin-left: -5px;
+    width: 20px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 100;
+
+    -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+    -moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+    animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes ca3_fade_move_down {
+  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes ca3_fade_move_down {
+  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes ca3_fade_move_down {
+  0%   { transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,20px); opacity: 0; }
 }
