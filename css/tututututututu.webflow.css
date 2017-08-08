@@ -2715,6 +2715,16 @@ html.w-mod-js *[data-ix="showslide-18"] {
     .w-lightbox-right {
         margin-left: 170px;
     }
+
+    .w-lightbox-caption {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .w-lightbox-caption {
+        font-size: 15.5px;
+    }
 }
 
 @media screen and (max-height: 615px) {
@@ -2726,7 +2736,7 @@ html.w-mod-js *[data-ix="showslide-18"] {
         margin-left: 140px;
     }
     .w-lightbox-caption {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
@@ -2737,6 +2747,16 @@ html.w-mod-js *[data-ix="showslide-18"] {
     }
     .w-lightbox-right {
         margin-left: 110px;
+    }
+
+    .w-lightbox-caption {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-height: 520px) {
+    .w-lightbox-caption {
+        font-size: 12px;
     }
 }
 
@@ -2750,6 +2770,14 @@ html.w-mod-js *[data-ix="showslide-18"] {
     }
 }
 
+
+.w-lightbox-caption {
+    white-space: pre-wrap;
+}
+
+.w-lightbox-caption br {
+    display: none;
+}
 
 /* ==== MAPS ==== */
 
@@ -2797,16 +2825,6 @@ html.w-mod-js *[data-ix="showslide-18"] {
 }
 
 
-/*.Simage.image5 {
-  padding-bottom: 200vh;
-  padding-top: 200vh; 
-}*/
-
-
-/*.Simage.image4 {
-  padding-bottom: 80vh;
-  padding-top: 80vh; 
-}*/
 
 .fixed1 {
     position: fixed;
