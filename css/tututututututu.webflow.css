@@ -1403,12 +1403,19 @@ a {
     color: #000;
 }
 
-.third-level-de-bijenkorf {
+.japan-block {
+    margin-left: 25px;
+    color: #000;   
+}
+
+.third-level-de-bijenkorf, .third-level-LTshop, .third-level-IDEEshop, .third-level-PLAZAginza {
     margin-top: -12px;
     padding-bottom: 10px;
     font-size: 18px;
     letter-spacing: 1.5px;
 }
+
+
 
 .slideshow {
     position: fixed;
@@ -1554,6 +1561,11 @@ html.w-mod-js *[data-ix="showslide-18"] {
     }
     .logo-container {
         margin-top: 0px;
+        width: 100%;
+    }
+
+    .container-a {
+        padding: 0 30px;
     }
     .image {
         display: block;
@@ -2261,6 +2273,12 @@ html.w-mod-js *[data-ix="showslide-18"] {
 }
 
 @media (max-width: 479px) {
+
+    .container-a {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+
     .header-mob {
         display: block;
         width: 100%;
@@ -2293,7 +2311,7 @@ html.w-mod-js *[data-ix="showslide-18"] {
     }
     .logo-container {
         width: 100%;
-        margin-top: 130px;
+        /*margin-top: 130px;*/
     }
     .image {
         display: block;
