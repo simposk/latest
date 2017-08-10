@@ -1,3 +1,8 @@
+#mob_logo {
+    width: 120px;
+}
+
+
 body {
     font-family: 'Space Mono', monospace;
     color: #333;
@@ -1527,7 +1532,7 @@ html.w-mod-js *[data-ix="showslide-18"] {
     }
 
     .header-mob {
-        height: 95vh;
+        height: 100%;
     }
     .navigation {
         display: block;
@@ -1982,9 +1987,19 @@ html.w-mod-js *[data-ix="showslide-18"] {
         padding-right: 20px;
         padding-left: 0px;
     }
+
+    #mob_logo {
+        padding: 150px 0;
+    }   
 }
 
+/* cia */
+
 @media (max-width: 767px) {
+    #mob_logo {
+        padding: 150px 0;
+    }  
+
     .body {
         overflow: auto;
         height: auto;
@@ -2550,6 +2565,27 @@ html.w-mod-js *[data-ix="showslide-18"] {
     }
 }
 
+@media (max-width: 414px) {
+    #mob_logo {
+        padding: 110px 0;
+        width: 90px;
+    }   
+}
+
+@media (max-width: 375px) {
+    #mob_logo {
+        padding: 70px 0;
+        width: 90px;
+    }   
+}
+
+@media (max-width: 320px) {
+    #mob_logo {
+        padding: 70px 0;
+        width: 90px;
+    }   
+}
+
 /* ==================== */
 
 
@@ -2828,6 +2864,8 @@ html.w-mod-js *[data-ix="showslide-18"] {
     }
 }
 
+
+
 .current_lang {
     text-decoration: underline;
     /*&:hover {
@@ -3011,3 +3049,5 @@ html.w-mod-js *[data-ix="showslide-18"] {
   50%  { opacity: 1;  }
   100% { transform:translate(0,20px); opacity: 0; }
 }
+
+
