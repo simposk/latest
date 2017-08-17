@@ -1996,7 +1996,8 @@ html.w-mod-js *[data-ix="showslide-18"] {
 
 @media (max-width: 767px) {
     #mob_logo {
-        padding: 150px 0;
+        padding: 60px 0;
+        width: 100px;
     }  
 
     .body {
@@ -2286,6 +2287,11 @@ html.w-mod-js *[data-ix="showslide-18"] {
 }
 
 @media (max-width: 479px) {
+    
+    #mob_logo {
+        padding: 30px 0;
+        width: 90px;
+    }
 
     .container-a {
         padding-left: 0;
@@ -2568,21 +2574,25 @@ html.w-mod-js *[data-ix="showslide-18"] {
 
 @media (max-width: 414px) {
     #mob_logo {
-        padding: 110px 0;
+        padding: 30px 0;
         width: 90px;
     }   
+    
+    .logo-container {
+        margin-left: -20px;
+    }
 }
 
 @media (max-width: 375px) {
     #mob_logo {
-        padding: 70px 0;
+        padding: 30px 0;
         width: 90px;
     }   
 }
 
 @media (max-width: 320px) {
     #mob_logo {
-        padding: 70px 0;
+        padding: 30px 0;
         width: 90px;
     }   
 }
@@ -2993,14 +3003,9 @@ html.w-mod-js *[data-ix="showslide-18"] {
 }
 
 
-
-/*.scroll-gif img {
-    padding-top: 360px;
-}*/
-
-/* SCROLL GIF*/
-
-
+.nav-link.mobile.private-label {
+    padding-bottom: 25px;
+}
 
 .scroll-gif {
     position: absolute;
