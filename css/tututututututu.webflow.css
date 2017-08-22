@@ -2616,6 +2616,10 @@ html.w-mod-js *[data-ix="showslide-18"] {
 }
 
 @media (max-width: 414px) {
+    .close-menu {
+        top: 13px;
+    }
+
     #mob_logo {
         padding: 30px 0;
         width: 90px;
