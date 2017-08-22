@@ -1993,18 +1993,33 @@ html.w-mod-js *[data-ix="showslide-18"] {
     }   
 }
 
+.mob-about-photo {
+    width: 100%;
+    max-width: 100%;
+}
+
+.image-2 {
+    padding: 0 30px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    margin: 0;
+}
+
+.header-mob.w-hidden-main {
+    height: 100vh !important;
+}
+
 /* cia */
 
 @media (max-width: 767px) {
     .mob-about-photo {
         width: 100%;
         max-width: 100%;
-        overflow-x: hidden;
-        margin-left: 30px;
     }
 
     .image-2 {
-        padding-right: 60px;
+        padding: 0 30px;
         width: 100%;
         box-shadow: none;
         margin: 0;
@@ -2019,7 +2034,7 @@ html.w-mod-js *[data-ix="showslide-18"] {
         height: auto;
     }
     .header-mob {
-        height: auto;
+        height: 100%;
     }
     .navigation {
         margin-top: 50px;
@@ -2305,12 +2320,11 @@ html.w-mod-js *[data-ix="showslide-18"] {
     .mob-about-photo {
         width: 100%;
         max-width: 100%;
-        overflow-x: hidden;
-        margin-left: 0;
     }
 
     .image-2 {
-        padding-right: 30px;
+        /*padding: 0 30px;*/
+        padding-left: 0px;
         width: 100%;
         box-shadow: none;
         margin: 0;
